@@ -1,0 +1,52 @@
+body
+{
+    background-color: rgb(187, 232, 232);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0px;
+}
+
+.barnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+.p a, .home a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.p a:hover 
+{
+    background-color: #111;
+}
+
+hr
+{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.titoli
+{
+    margin-left: 5%;
+}   
+
+.lista
+{
+    margin-left: 5%;
+}
