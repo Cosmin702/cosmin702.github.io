@@ -10,28 +10,44 @@
     
 </head>
 <body>
-    <ul class="barnav">
-        <li class="home"><a href="index.html"><i class="material-icons">home</i></a></li>
-        <li class="p"><a href="PAGES/page1.html">CSS esterno</a></li>
-        <li class="p"><a href="PAGES/page2.html">CSS interno</a></li>
-        <li class="p"><a href="PAGES/page3.html">CSS inline</a></li>
-        <li class="p"><a href="PAGES/page4.html">CSS esterno</a></li>
-        <li class="p"><a href="PAGES/page5.html">CSS interno</a></li>
-        <li class="p"><a href="PAGES/page6.html">CSS inline</a></li>
-    </ul>
+    <div class="barnav">
+        <a href="index.html" class=""><i class="material-icons">home</i></a>
+        <div class="dropdown">
+            <button class="dropbtn">CSS esterno<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="PAGES/page2.html">Borders</a>
+              <a href="PAGES/page4.html">Float</a>
+            </div>
+          </div> 
+        <div class="dropdown">
+            <button class="dropbtn">CSS interno<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="PAGES/page2.html">Borders</a>
+                <a href="PAGES/page5.html">Float</a>
+            </div>
+          </div> 
+        <div class="dropdown">
+          <button class="dropbtn">CSS inline<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="PAGES/page3.html">Borders</a>
+            <a href="PAGES/page6.html">Float</a>
+          </div>
+        </div> 
+    </div>
+
     <div class="titoli">
         <h1>Cosmin Amelian 3A-INFO</h1>
         <h2>PAGINE CON ESEMPI CSS</h2>
         <h2>CONTENUTO DELLE PAGINE: BORDERS</h2>
     </div>
-    <hr>
+
     <ul class="lista">
         <li><a href="PAGES/page1.html">CSS esterno</a></li>
         <li><a href="PAGES/page2.html">CSS interno</a></li>
         <li><a href="PAGES/page3.html">CSS inline</a></li>
     </ul>
     
-    <h2 class="titoli">CONTENUTO DELLE PAGINE: BORDERS</h2>
+    <h2 class="titoli">CONTENUTO DELLE PAGINE: FLOAT</h2>
 
     <ul class="lista">
         <li><a href="PAGES/page4.html">CSS esterno</a></li>

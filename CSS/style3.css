@@ -1,0 +1,40 @@
+.floatr{
+    float: right;  
+    width: 170px;
+    height: 170px; 
+}
+
+.lorem{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+br{
+    height: 40px;
+}
+
+.floatl{
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%; 
+}
+.clearfix{
+    border: 3px solid blue;
+    padding: 5px; 
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.clear{
+    clear: both;
+    margin-left: 8%;
+    margin-right: 8%;
+}
