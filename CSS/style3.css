@@ -1,28 +1,29 @@
-.floatr{
-    float: right;  
+.floatr {
+    float: right;
     width: 170px;
-    height: 170px; 
+    height: 170px;
 }
 
-.lorem{
+.lorem {
     margin-left: 8%;
     margin-right: 8%;
 }
 
-br{
+br {
     height: 40px;
 }
 
-.floatl{
+.floatl {
     float: left;
     width: 0.7em;
     font-size: 400%;
     font-family: algerian, courier;
-    line-height: 80%; 
+    line-height: 80%;
 }
-.clearfix{
+
+.clearfix {
     border: 3px solid blue;
-    padding: 5px; 
+    padding: 5px;
     margin-left: 8%;
     margin-right: 8%;
 }
@@ -33,7 +34,8 @@ br{
     display: table;
 
 }
-.clear{
+
+.clear {
     clear: both;
     margin-left: 8%;
     margin-right: 8%;

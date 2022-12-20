@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-    <link rel="stylesheet" href="../CSS/style1.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style1.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ESEMPI CSS</title>
     <style>
-        .floatr{
-            float: right;  
+        .floatr {
+            float: right;
             width: 170px;
-            height: 170px; 
+            height: 170px;
         }
 
-        .lorem{
+        .lorem {
             margin-left: 8%;
             margin-right: 8%;
         }
 
-        br{
+        br {
             height: 40px;
         }
 
-        .floatl{
+        .floatl {
             float: left;
             width: 0.7em;
             font-size: 400%;
             font-family: algerian, courier;
-            line-height: 80%; 
+            line-height: 80%;
         }
-        .clearfix{
+
+        .clearfix {
             border: 3px solid blue;
-            padding: 5px; 
+            padding: 5px;
             margin-left: 8%;
             margin-right: 8%;
         }
@@ -41,91 +43,132 @@
             content: "";
             clear: both;
             display: table;
-
         }
-        .clear{
+
+        .clear {
             clear: both;
             margin-left: 8%;
             margin-right: 8%;
         }
     </style>
 </head>
+
 <body>
     <div class="barnav">
         <a href="../index.html" class=""><i class="material-icons">home</i></a>
         <div class="dropdown">
-            <button class="dropbtn">CSS esterno<i class="fa fa-caret-down"></i></button>
+            <button class="dropbtn">
+                CSS esterno<i class="fa fa-caret-down"></i>
+            </button>
             <div class="dropdown-content">
-              <a href="page1.html">Borders</a>
-              <a href="page4.html">Float</a>
+                <a href="page1.html">Borders</a>
+                <a href="page4.html">Float</a>
+                <a href="page7.html">Rounded Corners</a>
             </div>
-          </div> 
+        </div>
         <div class="dropdown">
-            <button class="dropbtn">CSS interno<i class="fa fa-caret-down"></i></button>
+            <button class="dropbtn">
+                CSS interno<i class="fa fa-caret-down"></i>
+            </button>
             <div class="dropdown-content">
                 <a href="page2.html">Borders</a>
                 <a href="page5.html">Float</a>
+                <a href="page8.html">Rounded Corners</a>
             </div>
-          </div> 
+        </div>
         <div class="dropdown">
-          <button class="dropbtn">CSS inline<i class="fa fa-caret-down"></i></button>
-          <div class="dropdown-content">
-            <a href="page3.html">Borders</a>
-            <a href="page6.html">Float</a>
-          </div>
-        </div> 
+            <button class="dropbtn">
+                CSS inline<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="page3.html">Borders</a>
+                <a href="page6.html">Float</a>
+                <a href="page9.html">Rounded Corners</a>
+            </div>
+        </div>
     </div>
-    
+
     <div class="titoli">
         <h1>Cosmin Amelian 3A-INFO</h1>
         <h2>PAGINE ESEMPIO CSS INTERNO: FLOAT</h2>
         <h3>Float right</h3>
     </div>
 
-    <p class="lorem"> <img src="../IMAGES/pineapple.jpg" alt="pineapple" class="floatr">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, 
-        vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
-        augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. 
-        Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. 
-        Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    <p class="lorem">
+        <img src="../IMAGES/pineapple.jpg" alt="pineapple" class="floatr" />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+        scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+        Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+        convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+        dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc
+        venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+        venenatis. Integer fringilla congue eros non fermentum. Sed dapibus
+        pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
     </p>
 
-    <br>
+    <br />
 
     <h3 class="titoli">Float left con altri style</h3>
-    <p class="lorem"><span class="floatl">L</span>
-        orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, 
-        vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
-        augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. 
-        Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. 
-        Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    <p class="lorem">
+        <span class="floatl">L</span>
+        orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+        scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+        Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+        convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+        dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc
+        venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+        venenatis. Integer fringilla congue eros non fermentum. Sed dapibus
+        pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
     </p>
 
-    <br>
+    <br />
 
     <h3 class="titoli">Float right con secondo paragrafo a capo</h3>
-    
-    <p class="lorem"> <img src="../IMAGES/img_mountains.jpg" alt="mountains" class="floatr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, 
-        vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
-        augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. 
-        Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. 
+
+    <p class="lorem">
+        <img src="../IMAGES/img_mountains.jpg" alt="mountains" class="floatr" />Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Phasellus
+        imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+        scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+        Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+        convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+        dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc
+        venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+        venenatis.
     </p>
-    <p class="clear">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, 
-        vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
-        augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. 
-        Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. 
+    <p class="clear">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+        scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+        Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+        convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+        dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc
+        venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+        venenatis.
     </p>
 
-    <br>
+    <br />
 
     <h3 class="titoli">Float clearfix</h3>
-    <div class="clearfix"><img src="../IMAGES/kitty-cat-sandwich.gif" alt="cat" class="floatr">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, 
-        vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
-        augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. 
-        Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. 
-        Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    <div class="clearfix">
+        <img src="../IMAGES/kitty-cat-sandwich.gif" alt="cat" class="floatr" />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+        scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+        Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+        convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+        dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc
+        venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+        venenatis. Integer fringilla congue eros non fermentum. Sed dapibus
+        pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
     </div>
- 
 </body>
+
 </html>

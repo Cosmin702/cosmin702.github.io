@@ -1,37 +1,48 @@
-.punteggiato{
+.punteggiato {
     border-style: dotted;
 }
-.tratteggiato{
+
+.tratteggiato {
     border-style: dashed;
-}   
-.solido{
+}
+
+.solido {
     border-style: solid;
-}   
-.doppio{
+}
+
+.doppio {
     border-style: double;
-}   
-.scanalatura{
+}
+
+.scanalatura {
     border-style: groove;
 }
-.cresta{
+
+.cresta {
     border-style: ridge;
 }
-.interno{
+
+.interno {
     border-style: inset;
 }
-.esterno{
+
+.esterno {
     border-style: outset;
 }
-.nessuno{
+
+.nessuno {
     border-style: none;
 }
-.nascosto{
+
+.nascosto {
     border-style: hidden;
 }
-.misto{
+
+.misto {
     border-style: dotted dashed solid double;
 }
-.solidocol{
+
+.solidocol {
     border-style: solid;
     border-color: blue;
 }
